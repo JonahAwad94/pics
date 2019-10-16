@@ -12,7 +12,9 @@ class App extends React.Component {
             "Client-ID 699a704d32df71e6c1e8f0bc783ca0d79fed71695187ce15af98f10229df1164"
         }
       })
-      .then(() => {});
+      .then(response => {
+        console.log(response.data.results);
+      });
   }
 
   render() {
