@@ -1,7 +1,7 @@
 import React from "react";
 
 class SearchBar extends React.Component {
-  state = { term: "" };
+  state = { term: "Search for images" };
 
   //   prevents form from automatically submitting itself
   //   arrow function prevents state of "this" is undefined error
