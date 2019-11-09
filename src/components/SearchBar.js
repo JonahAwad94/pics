@@ -3,9 +3,10 @@ import React from "react";
 class SearchBar extends React.Component {
   state = { term: "Search for images" };
 
-  //   prevents form from automatically submitting itself
-  //   arrow function prevents state of "this" is undefined error
-  //   does this by automatically binding
+  // prevents form from automatically submitting itself
+  // arrow function prevents state of "this" is undefined error
+  // does this by automatically binding
+
   onFormSubmit = event => {
     event.preventDefault();
 
